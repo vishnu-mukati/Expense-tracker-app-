@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice of the HTML</title>
+
+</head>
+<body>
+    <form onsubmit="handformsubmit(event)">
+        <lebel for="expenseamount">Choose Expense Amount:</lebel>
+        <input type="number" id="expenseamount" name="c_expenseamount" required>
+        <label for="description" style="font-weight: bold; color: orchid;">Chosse Description:</label>
+        <input type="text" id="description" name="description" required>
+        <label for="category">Chosse a category</label>
+        <select id="category" name="category">
+            <option>Fuel</option>
+            <option>Ticket</option>
+            <option>Gaming</option>
+            <option>Food</option>
+            <option>Others</option>
+        </select>
+        <button id="button">submit</button>
+    </form>
+    <ul id="userlist"></ul>
+</body>
+<script src="index.js"></script>
+</html>
