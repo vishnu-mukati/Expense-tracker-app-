@@ -18,7 +18,7 @@
             <label for="expenseamount" class="form-label">Choose Expense Amount :-</label>
             <div class="input-group">
                 <div class="input-group-text text-bg-info">$</div>
-                <input type="number" id="expenseamount" class="form-control" name="c_expenseamount" required>
+                <input type="number" id="expenseamount" class="form-control" name="expenseamount" required>
                 <div class="input-group-text">.00</div>
             </div>
             <label for="description" class="form form-label">Choose Description :-</label>
@@ -33,20 +33,6 @@
             </select>
             <button class="btn btn-primary p-2 m-3 text-light justify-content-center">Submit</button>
         </form>
-        <div class="container">
-            <table class="table table-warning table-bordered table-hover">
-                <thead class="table-primary">
-                    <tr>
-                        <td>Amount</td>
-                        <td>Description</td>
-                        <td>Category</td>
-                        <td>Actions</td>
-                    </tr>
-                </thead>
-                <tbody id="tablebody">
-
-                </tbody>
-            </table>
-        </div>
+        <ul id="userlist"><h2>ALL EXpenses</h2></ul>
         <script src="index.js"></script>
 </body>
